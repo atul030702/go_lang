@@ -59,4 +59,5 @@ Arrays are generally used when you know the exact, fixed size of your data set.
 
 - Fixed Size: This is the most crucial characteristic.
 - Constant Time Access: Getting any element (e.g., `nums[0]`) takes the same amount of time, regardless of the array's size (this is known as $O(1)$ complexity).
+
 If you need a collection whose size can grow or shrink, you should use a Slice, which is built on top of the array structure.
