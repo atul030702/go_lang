@@ -18,17 +18,17 @@ Syntax: `map[<KeyType>]<ValueType>`
 
 ## 2. Adding and Accessing Elements
 
-**Adding/Setting Elements**
+**Adding/Setting Elements**  
 To add or update an element, use the bracket notation `[key]`.
 
 `map2["name"] = "golang"`: Sets the value `"golang"` for the key `"name"`.
 
-**Getting Elements**
+**Getting Elements**  
 To retrieve a value, use the same bracket notation.
 
 `fmt.Println(map2["name"])` will print `"golang"`.
 
-**The Zero Value Issue**
+**The Zero Value Issue**  
 If you try to retrieve a value using a key that doesn't exist in the map, Go returns the zero value for the map's value type, not an error.
 
 | Map Value Type           | Zero Value          | Example                                 |
